@@ -20,8 +20,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/portfolio")
 //@CrossOrigin(origins = "http://127.0.0.1:4200")
-//@CrossOrigin(origins = "https://portfoliodinamicoargprog.web.app")
-@CrossOrigin(origins = "**")
+@CrossOrigin(origins = "http://portfoliodinamicoargprog.firebaseapp.com")
+//@CrossOrigin(origins = "**")
 public class PersonaController {
 
     //Inyectamos la depencencia de PersonaService
