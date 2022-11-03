@@ -11,26 +11,26 @@ public class Proyecto {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int idProyecto;
+    private int id;
     @Basic
     private String nombreProyecto;
-    private String descripciónProyecto;
+    private String descripcionProyecto;
 
-    public Proyecto(int idProyecto, String nombreProyecto, String descripciónProyecto) {
-        this.idProyecto = idProyecto;
+    public Proyecto(int idProyecto, String nombreProyecto, String descripcionProyecto) {
+        this.id = idProyecto;
         this.nombreProyecto = nombreProyecto;
-        this.descripciónProyecto = descripciónProyecto;
+        this.descripcionProyecto = descripcionProyecto;
     }
 
     public Proyecto() {
     }
 
-    public int getIdProyecto() {
-        return idProyecto;
+    public int getId() {
+        return id;
     }
 
-    public void setIdProyecto(int idProyecto) {
-        this.idProyecto = idProyecto;
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getNombreProyecto() {
@@ -41,12 +41,12 @@ public class Proyecto {
         this.nombreProyecto = nombreProyecto;
     }
 
-    public String getDescripciónProyecto() {
-        return descripciónProyecto;
+    public String getDescripcionProyecto() {
+        return descripcionProyecto;
     }
 
-    public void setDescripciónProyecto(String descripciónProyecto) {
-        this.descripciónProyecto = descripciónProyecto;
+    public void setDescripcionProyecto(String descripcionProyecto) {
+        this.descripcionProyecto = descripcionProyecto;
     }
 
     
