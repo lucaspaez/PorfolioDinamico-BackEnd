@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/portfolio")
 //@CrossOrigin(origins = "http://127.0.0.1:4200")
-//@CrossOrigin(origins = "https://portfoliodinamicoargprog.firebaseapp.com/")
+@CrossOrigin(origins = "https://portfoliodinamicoargprog.firebaseapp.com/")
 //@CrossOrigin(origins = "**")
 public class AboutMeController {
     
